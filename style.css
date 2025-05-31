@@ -31,3 +31,17 @@ body {
     color: white;
 }
 
+.width-100 {
+    width: 100%;
+}
+.text-center {
+    text-align: center;
+}
+.final-headline {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.card img {
+    padding: 16px;
+}
+
