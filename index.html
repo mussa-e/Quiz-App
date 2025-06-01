@@ -20,9 +20,9 @@
 
     <!-- optional bootstrap lokal einbinden -->
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    
   </head>
 
   <body onload="init()">
@@ -36,8 +36,16 @@
 
 
     <div class="container">
+
+      
+
+
       <div class="card quiz-card">
         <img id="header-image" src="img/pencil.jpg" class="card-img-top" />
+
+        <div class="progress" role="progressbar">
+          <div id="progress-bar" class="progress-bar" style="width: 0%">0%</div>
+        </div>
 
         <div class="card-body" id="endScreen" style="display: none;">
           
@@ -45,13 +53,14 @@
             Quiz beendet!
           </div>
 
-          <!-- <div>
-            <img class="width-100" src="img/win.png">
-          </div> -->
-
           <div class="text-center">
-            Du hast <b id="amount-of-right-questions"></b> Fragen von <b id="amount-of-questions"></b> Fragen richtig beantwortet.
+            Du hast <b id="amount-of-right-questions"></b> Frage(n) von <b id="amount-of-questions"></b> Fragen richtig beantwortet.
           </div>
+
+          <div class="btn-row">
+            <button onclick="restartGame()" class="btn btn-primary">Erneut spielen</button>
+          </div>
+
         </div>
 
 

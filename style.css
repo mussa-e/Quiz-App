@@ -1,7 +1,6 @@
 body {
     background-color: rgb(0, 76, 255);
 }
-
 .container {
     min-height: 100vh;
     background-color: rgb(0, 76, 255);
@@ -9,11 +8,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .quiz-card {
     width: 30rem;
 }
-
 .question-footer {
     display: flex;
     justify-content: space-between;
@@ -21,16 +18,13 @@ body {
     align-items: center;
     padding-top: 12px;
 }
-
 .quiz-answer-card:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.05);
 }
-
 .bg-success, .bg-danger {
     color: white;
 }
-
 .width-100 {
     width: 100%;
 }
@@ -43,5 +37,10 @@ body {
 }
 .card img {
     padding: 16px;
+}
+.btn-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 }
 
